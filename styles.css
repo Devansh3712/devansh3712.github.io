@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400&display=swap");
+
+body {
+    background-color: #111111;
+    font-family: "Lexend", sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 46px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    margin: 50px 100px;
+}
+
+.social {
+    margin: 30px 0px;
+}
+
+.spotify {
+    margin: 30px;
+}
+
+.fa-brands {
+    padding-right: 10px;
+}
+
+.fa-brands:hover {
+    color: #a0a0a0;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div class="row">
+            <div class="column">
+                <h1>Devansh Singh</h1>
+                <div class="social">
+                    <a href="https://github.com/Devansh3712" target="_blank">
+                        <i class="fa-brands fa-github fa-2xl"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/devanshsingh3/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in fa-2xl"></i>
+                    </a>
+                    <a href="https://twitter.com/cheeniipapa" target="_blank">
+                        <i class="fa-brands fa-twitter fa-2xl"></i>
+                    </a>
+                    <a href="https://open.spotify.com/user/pcc9igf8p4dtvq7di5csiv413" target="_blank">
+                        <i class="fa-brands fa-spotify fa-2xl"></i>
+                    </a>
+                </div>
+                <p>
+                    <span id="age"></span> year old computer science undergrad and a self-taught backend developer.
+                    Currently learning about web servers & APIs.
+                </p>
+                <p>PS: I'm bad at frontend</p>
+            </div>
+            <div class="column">
+                <div class="spotify">
+                    <img src="https://spotify-recently-played-readme.vercel.app/api?user=pcc9igf8p4dtvq7di5csiv413&count=3&width=450">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        document.getElementById("age").innerText = moment().diff("2002-12-03", "years");
+    </script>
+</html>
