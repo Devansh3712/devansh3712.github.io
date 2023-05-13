@@ -15,10 +15,6 @@ a {
     color: #ffffff;
 }
 
-.main {
-    margin: 150px 300px;
-}
-
 .social {
     margin: 30px 0px;
 }
@@ -30,4 +26,40 @@ a {
 .fa-brands:hover {
     color: #a0a0a0;
     cursor: pointer;
+}
+
+@media (min-width:320px) {
+    .main {
+        margin: 100px 50px;
+    }
+}
+
+@media (min-width:481px) {
+    .main {
+        margin: 100px 50px;
+    }
+}
+
+@media (min-width:641px) {
+    .main {
+        margin: 100px 50px;
+    }
+}
+
+@media (min-width:961px) {
+    .main {
+        margin: 150px 300px;
+    }
+}
+
+@media (min-width:1025px) {
+    .main {
+        margin: 150px 300px;
+    }
+}
+
+@media (min-width:1281px) {
+    .main {
+        margin: 150px 300px;
+    }
 }
