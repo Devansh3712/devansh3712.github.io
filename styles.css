@@ -43,60 +43,72 @@ a {
 
 @media (min-width:320px) {
     .main {
-        margin: 100px 50px;
+        margin: 150px 50px;
     }
 
-    .spotify img {
+    .spotify iframe {
         width: 300px;
+        height: 150px;
+        border-radius: 12px;
     }
 }
 
 @media (min-width:481px) {
     .main {
-        margin: 100px 50px;
+        margin: 150px 50px;
     }
 
-    .spotify img {
+    .spotify iframe {
         width: 300px;
+        height: 150px;
+        border-radius: 12px;
     }
 }
 
 @media (min-width:641px) {
     .main {
-        margin: 100px 50px;
+        margin: 150px 50px;
     }
 
-    .spotify img {
+    .spotify iframe {
         width: 350px;
+        height: 150px;
+        border-radius: 12px;
     }
 }
 
 @media (min-width:961px) {
     .main {
-        margin: 150px 300px;
+        margin: 100px 300px;
     }
 
-    .spotify img {
+    .spotify iframe {
         width: 400px;
+        height: 352px;
+        border-radius: 12px;
     }
 }
 
 @media (min-width:1025px) {
     .main {
-        margin: 150px 300px;
+        margin: 100px 300px;
     }
 
-    .spotify img {
+    .spotify iframe {
         width: 400px;
+        height: 352px;
+        border-radius: 12px;
     }
 }
 
 @media (min-width:1281px) {
     .main {
-        margin: 150px 300px;
+        margin: 100px 300px;
     }
 
-    .spotify img {
+    .spotify iframe {
         width: 400px;
+        height: 352px;
+        border-radius: 12px;
     }
 }
