@@ -15,21 +15,12 @@ a {
     color: #ffffff;
 }
 
-.row {
-    display: flex;
-}
-
-.column {
-    flex: 50%;
-    margin: 50px 100px;
+.main {
+    margin: 150px 300px;
 }
 
 .social {
     margin: 30px 0px;
-}
-
-.spotify {
-    margin: 30px;
 }
 
 .fa-brands {
