@@ -27,7 +27,16 @@ a {
     padding-right: 10px;
 }
 
+.fa-solid {
+    padding-right: 10px;
+}
+
 .fa-brands:hover {
+    color: #a0a0a0;
+    cursor: pointer;
+}
+
+.fa-solid:hover {
     color: #a0a0a0;
     cursor: pointer;
 }
