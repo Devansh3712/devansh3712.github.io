@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+        <title>devansh's portfolio</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>devansh singh</h1>
+            <div class="intro">
+                a <span id="age"></span>-year-old self-taught developer, learning about web servers and devops.
+                worked under ceph for google summer of code 2023, summer intern at fidelity international.
+                my resume can be found <a href="https://drive.google.com/file/d/1JtF2p0jYfWtdZ0xdQruJoYmT7PZUAixo/view?usp=sharing" target="_blank"><i>here</i></a>.
+            </div>
+            <div class="socials">
+                <a href="https://github.com/Devansh3712" target="_blank">
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                </a>
+                <a href="https://linkedin.com/in/devanshsingh3" target="_blank">
+                    <i class="fa-brands fa-linkedin-in fa-2xl"></i>
+                </a>
+                <a href="https://twitter.com/cheeniipapa" target="_blank">
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                </a>
+                <a href="https://sptfy.com/d3v4nsh">
+                    <i class="fa-brands fa-spotify fa-2xl"></i>
+                </a>
+            </div>
+            <div class="projects">
+                some of the projects i've worked on:
+                <ul>
+                    <li><a href="https://github.com/Devansh3712/tandb">tandb</a></li>
+                    <li>nasake</li>
+                    <li>http</li>
+                    <li>tsuki</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script>
+        document.getElementById('age').innerText = moment().diff('2002-12-03', 'years');
+    </script>
+</html>

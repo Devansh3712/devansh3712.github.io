@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Computer Modern';
+    src: url('cmunrm.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Computer Modern';
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 10%;
+}
+
+.intro {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.socials {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.fa-brands {
+    margin-right: 10px;
+}
+
+.projects {
+    margin-top: 25px;
+    font-size: 20px;
+}
