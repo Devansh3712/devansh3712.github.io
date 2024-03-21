@@ -49,3 +49,7 @@ body {
 .projects {
     font-size: 20px;
 }
+
+.spotify iframe {
+    margin-top: 10px;
+}
