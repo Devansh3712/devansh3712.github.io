@@ -3,6 +3,11 @@
     src: url('cmunrm.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Computer Modern Typewriter';
+    src: url('cmuntt.ttf') format('truetype');
+}
+
 * {
     font-family: 'Computer Modern';
     margin: 0px;
@@ -17,13 +22,23 @@ body {
     margin: 10%;
 }
 
+.heading {
+    margin-bottom: 20px;
+}
+
+.bash {
+    margin: 10px 0px 10px 0px;
+    font-family: 'Computer Modern Typewriter';
+    font-size: 18px;
+}
+
 .intro {
     margin-top: 5px;
     font-size: 20px;
 }
 
 .socials {
-    margin-top: 30px;
+    margin: 10px 0px 10px 0px;
     display: inline-block;
 }
 
@@ -32,6 +47,5 @@ body {
 }
 
 .projects {
-    margin-top: 25px;
     font-size: 20px;
 }
