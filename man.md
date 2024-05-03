@@ -13,4 +13,4 @@ a 21 year old computer science undergrad, learning about web servers and devops.
 
 
 ## PLAYLIST
-<iframe style="border-radius:12px; margin-top:10px" src="https://open.spotify.com/embed/playlist/4EIM5JuhOAN134qTvsTrHA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px; margin-top:10px" src="https://open.spotify.com/embed/playlist/4EIM5JuhOAN134qTvsTrHA?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
