@@ -1,2 +1,2 @@
 man:
-	ronn --html man.md
+	ronn --html --style=dark man.md
