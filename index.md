@@ -2,8 +2,12 @@ devansh -- backend developer
 ============================
 
 ## DESCRIPTION
-a 21 year old computer science undergrad, learning about web servers and devops. summer intern at [fidelity international](https://www.fidelityinternational.com/), and working under [ceph](https://ceph.io/en/) for google summer of code 2024. interested in crpytography and quantum computing.
+a <span id="age"></span> year old computer science undergrad, learning about web servers and devops. summer intern at [fidelity international](https://www.fidelityinternational.com/), and working under [ceph](https://ceph.io/en/) for google summer of code 2024. interested in crpytography and quantum computing.
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+<script>
+    document.getElementById("age").innerText = moment().diff("2002-12-03", "years");
+</script>
 
 ## LINKS
 - [github](https://github.com/Devansh3712)
