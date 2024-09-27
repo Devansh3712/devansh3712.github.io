@@ -2,7 +2,7 @@ devansh -- backend developer
 ============================
 
 ## DESCRIPTION
-a <span id="age"></span> year old computer science undergrad, learning about web servers and devops. summer intern at [fidelity international](https://www.fidelityinternational.com/), and working under [ceph](https://ceph.io/en/) for google summer of code 2024. interested in cryptography and quantum computing.
+a <span id="age"></span> year old computer science undergrad, learning about web servers and devops. upcoming software development intern at amazon, and worked under [ceph](https://ceph.io/en/) for google summer of code 2023 and 2024. interested in cryptography, systems programming and quantum computing.
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
 <script>
